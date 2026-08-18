@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+  :root {
+    --bg-primary: #EBEAE8;
+    --bg-secondary: #F5E7DC;
+    --border-color: #DACABD;
+    --accent-color: #89725B;
+    --text-color: #000000;
+  }
+
+  .dark {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #262422;
+    --border-color: #4a4138;
+    --accent-color: #bfa388;
+    --text-color: #EBEAE8;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-color);
+    font-family: 'Raleway', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Serif Display', serif;
+  }
+
+  .font-sub {
+    font-family: 'Lato', sans-serif;
+  }
+}
+/* ==========================================
+   BARRA DE DESPLAZAMIENTO PERSONALIZADA (LUXURY SCROLLBAR)
+   ========================================== */
+
+/* Ancho y alto de la barra */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Fondo del carril */
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary, #262422);
+  border-radius: 10px;
+}
+
+/* Barra deslizante (Thumb) */
+::-webkit-scrollbar-thumb {
+  background: var(--border-color, #4a4138);
+  border-radius: 10px;
+}
+
+/* Al pasar el cursor por la barra */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color, #bfa388);
+}
+
+/* Soporte para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color, #4a4138) var(--bg-secondary, #262422);
+}
