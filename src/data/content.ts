@@ -5,47 +5,47 @@ export const portfolioData = {
     navbar: {
       links: [
         { label: 'Inicio', href: '#inicio' },
-        { label: 'Sobre mí', href: '#sobre-mi' },
+        { label: 'Quién soy', href: '#sobre-mi' },
         { label: 'Servicios', href: '#servicios' },
         { label: 'Contacto', href: '#contacto' }
       ],
       cta: 'Hablemos'
     },
     hero: {
-      specialistBadge: "Especialista en Mercadotecnia",
+      specialistBadge: "Practicante de Marketing",
       availableBadge: "Disponible 2026",
       firstName: "Catherine",
       lastName: "de Jesus",
-      quote: '"Diseñando narrativas visuales y estrategias con alma que trascienden en el tiempo y conectan con el lujo de lo auténtico."',
-      tagline: "Estrategia • Posicionamiento • Lujo Funcional",
+      quote: '"Transformando ideas en estrategias, marcas y contenidos que conectan con las personas."',
+      tagline: "Estrategia • Branding • Contenido",
       ctaPrimary: "Iniciar Proyecto",
       ctaSecondary: "Ver Servicios",
-      imgAlt: "Catherine de Jesus - Estrategia & Dirección de Arte"
+      imgAlt: "Catherine de Jesus - Marketing, branding y contenido digital"
     },
     about: {
-      sectionBadge: 'Universo Creativo • Enfoque',
-      title: 'Filosofía &',
-      titleHighlight: 'Método',
-      description: 'Una mirada fresca y estratégica fusionando el arte visual, la mercadotecnia y el diseño funcional.',
-      footerTag: 'Mercadotecnia & Estrategia',
+      sectionBadge: 'Perfil profesional • Quién soy',
+      title: 'Quién',
+      titleHighlight: 'soy',
+      description: 'Soy estudiante y practicante de Marketing, con interés en comprender a las personas y transformar sus necesidades en estrategias, marcas y contenidos que comunican con intención.',
+      footerTag: 'Marketing • Creatividad • Estrategia',
       tabs: {
         vision: {
-          title: "Esencia & Posicionamiento",
-          subtitle: "Estrategia con alma y sentido",
-          text: "Como estudiante de Mercadotecnia, creo firmemente que el diseño y el marketing van más allá de lo estético: se trata de estructurar narrativas visuales y funcionales que conecten de manera genuina y perduren en el tiempo.",
-          badge: "Estrategia"
+          title: "Marketing",
+          subtitle: "Mirada creativa",
+          text: "Soy Catherine, estudiante y practicante de Marketing. Me interesa comprender a las personas, las marcas y sus objetivos para convertir esa lectura en ideas claras, relevantes y cercanas. Disfruto aprender, colaborar y participar en proyectos donde la estrategia se vuelve comunicación con propósito.",
+          badge: "Perfil"
         },
         pasion: {
-          title: "Dirección de Arte & Estética",
-          subtitle: "El detalle como identidad",
-          text: "Disfruto transformar conceptos abstractos en piezas visuales con una esencia propia. Cada proyecto es una oportunidad para experimentar con la estética editorial, el branding y la autenticidad.",
+          title: "Creatividad",
+          subtitle: "Ideas que conectan",
+          text: "Disfruto crear y editar contenido digital, desarrollar conceptos visuales y construir narrativas para redes sociales que se sientan auténticas, atractivas y propias de cada marca.",
           badge: "Creatividad"
         },
         trayectoria: {
-          title: "Evolución & Impacto Digital",
-          subtitle: "Compromiso y vanguardia",
-          text: "En constante búsqueda de nuevas habilidades dentro del mundo digital y creativo, manteniendo siempre el rigor profesional, la responsabilidad y una atención obsesiva por los detalles técnicos y visuales.",
-          badge: "Innovación"
+          title: "Estrategia",
+          subtitle: "Pensamiento con intención",
+          text: "Combino análisis, branding, comunicación y creatividad para proponer soluciones estratégicas: desde la planeación de contenidos y campañas hasta la gestión de comunidades y ventas.",
+          badge: "Estrategia"
         }
       }
     },
@@ -53,6 +53,7 @@ export const portfolioData = {
       badge: "Estadías Profesionales",
       heading: "Mi",
       headingHighlight: "Trayectoria",
+      projectsTitle: "Proyectos realizados durante mis estadías",
       ctaBtn: "Conoce a Albeh",
       agencyTitle: "Albeh Consulting",
       p1Part1: "Albeh representó mi gran ",
@@ -65,27 +66,27 @@ export const portfolioData = {
       cards: [
         {
           id: 1,
-          title: "Parrillas y Contenido",
-          category: "Social Media",
-          description: "Creación y ejecución de parrillas de contenido estratégico para redes sociales, diseñadas para potenciar el posicionamiento de la marca a través de un análisis profundo del mercado digital."
+          title: "Estrategia de Marketing",
+          category: "Marketing y estrategia",
+          description: "Apoyo en el desarrollo de estrategias de Marketing y comunicación digital, considerando objetivos, audiencias, posicionamiento y campañas para fortalecer la presencia de una marca."
         },
         {
           id: 2,
-          title: "Gestión de Influencers",
-          category: "Vinculación",
-          description: "Estrategia de contacto y vinculación con creadores de contenido para ampliar el alcance y la autoridad digital de la consultora, estableciendo relaciones valiosas y a largo plazo."
+          title: "Creación de marca",
+          category: "Branding y diseño",
+          description: "Desarrollo de conceptos de marca, logotipos e identidad visual para comunicar con coherencia y construir una presencia reconocible y profesional."
         },
         {
           id: 3,
-          title: "Diseño de Documentos",
-          category: "Identidad Visual",
-          description: "Diseño estructural y visual de documentos corporativos e identidad organizacional bajo estrictos estándares profesionales, asegurando la coherencia en cada punto de contacto corporativo."
+          title: "Contenido digital",
+          category: "Creación de contenido digital",
+          description: "Creación, edición y adaptación de contenido para redes sociales y plataformas digitales, incluyendo parrillas, guiones, copywriting y formatos audiovisuales."
         },
         {
           id: 4,
-          title: "Consultoría e Identidad",
-          category: "Estrategia de Marca",
-          description: "Estructuración y gestión de la identidad organizacional para consolidar la presencia corporativa de la firma en el mercado, alineando los valores internos con la percepción externa."
+          title: "Comunicación & ventas",
+          category: "Comunicación y ventas",
+          description: "Comunicación estratégica, atención al cliente y apoyo a procesos comerciales mediante escucha activa, manejo de objeciones, persuasión y orientación a soluciones."
         }
       ]
     },
@@ -93,36 +94,45 @@ export const portfolioData = {
       badge: "Capacidades",
       heading: "Servicios",
       headingHighlight: "Profesionales",
-      description: "Soluciones creativas y estratégicas diseñadas para elevar la presencia visual y el posicionamiento de marcas.",
+      description: "Soluciones de Marketing que conectan estrategia, creatividad y comunicación para impulsar marcas en digital.",
       includesLabel: "Incluye",
       footerTag: "Enfoque de Alto Impacto",
       list: [
         {
           id: "01",
-          title: "Identidad de Marca",
-          subtitle: "Sistemas Visuales & Branding",
-          description: "Construcción de identidades visuales que transmiten la esencia de cada marca de manera auténtica, coherente y profesional, estructurando sistemas perdurables.",
-          badge: "Estrategia Visual",
-          highlights: ["Manuales de Marca", "Sistemas Tipográficos", "Paletas de Color"],
-          tags: ["Branding", "UI/UX"]
+          title: "Creación de contenido digital",
+          subtitle: "Contenido que comunica",
+          description: "Creación y edición de piezas visuales y audiovisuales para comunicar mensajes relevantes en redes y plataformas digitales.",
+          badge: "Contenido",
+          highlights: ["Diseño para redes", "Edición audiovisual", "Copywriting"],
+          tags: ["Creatividad", "Digital"]
         },
         {
           id: "02",
-          title: "Contenido Digital",
-          subtitle: "Estrategia & Social Media",
-          description: "Creación de contenido creativo y estratégico para redes sociales, pensado para comunicar, conectar y fortalecer la presencia de una marca con alto impacto.",
-          badge: "Posicionamiento",
-          highlights: ["Plan de Contenidos", "Copywriting Editorial", "Diseño de Feeds"],
-          tags: ["Estrategia", "Social Media"]
+          title: "Planeación de contenidos",
+          subtitle: "Estrategia editorial",
+          description: "Organización de temas, formatos y calendarios para mantener una comunicación constante, clara y alineada a los objetivos de marca.",
+          badge: "Planeación",
+          highlights: ["Parrillas de contenido", "Calendarios editoriales", "Campañas digitales"],
+          tags: ["Estrategia", "Marketing"]
         },
         {
           id: "03",
-          title: "Edición Audiovisual",
-          subtitle: "Postproducción & Narrativa",
-          description: "Edición de piezas audiovisuales dinámicas y atractivas, adaptadas a diferentes formatos y plataformas digitales cuidando el ritmo, color y la narrativa.",
-          badge: "Producción",
-          highlights: ["Edición de Reels & Shorts", "Color Grading", "Postproducción"],
-          tags: ["Audiovisual", "Reels"]
+          title: "Identidad de marca",
+          subtitle: "Branding & posicionamiento",
+          description: "Desarrollo de conceptos, logotipos y sistemas visuales que ayudan a construir una marca reconocible y coherente con su comunicación.",
+          badge: "Branding",
+          highlights: ["Concepto visual", "Logotipos", "Sistemas de identidad"],
+          tags: ["Marca", "Branding"]
+        },
+        {
+          id: "04",
+          title: "Community Manager",
+          subtitle: "Gestión & comunidad",
+          description: "Gestión estratégica de redes sociales, publicación de contenidos y comunicación cercana con la comunidad de cada marca.",
+          badge: "Social Media",
+          highlights: ["Gestión de perfiles", "Atención a comunidad", "Monitoreo y seguimiento"],
+          tags: ["Comunicación", "Redes"]
         }
       ]
     },
@@ -133,7 +143,7 @@ export const portfolioData = {
       description: "Si buscas una visión estratégica, estética pulida y un compromiso absoluto con los resultados de tu marca, estoy lista para hacer equipo contigo.",
       availabilityBadge: "Disponible 2026",
       name: "Catherine de Jesus",
-      title: "Estrategia & Dirección de Arte",
+      title: "Marketing, Branding & Contenido",
       guaranteeBadge: "Atención Personalizada",
       guaranteeText: "Propuestas a la medida con enfoque integral, combinando análisis de mercado, visión estética y ejecución de alto nivel.",
       directoryBadge: "Directorio Directo",
@@ -166,7 +176,7 @@ export const portfolioData = {
         {
           id: 'servicios',
           label: '¿Qué servicios ofrece Catherine?',
-          answer: 'Catherine se especializa en 3 pilares estratégicos: 1. Identidad de Marca (Branding y Sistemas Visuales), 2. Contenido Digital (Estrategia y Copywriting) y 3. Edición Audiovisual (Reels, Shorts y Color Grading).'
+          answer: 'Catherine trabaja en cuatro áreas: creación de contenido digital, planeación de contenidos, identidad de marca y gestión de comunidades como Community Manager.'
         },
         {
           id: 'proceso',
@@ -185,7 +195,7 @@ export const portfolioData = {
         {
           id: 'tiempos',
           label: '¿Cuáles son los tiempos de entrega?',
-          answer: 'Los tiempos varían según la complejidad: Proyectos de Identidad de Marca toman entre 2 y 4 semanas, mientras que campañas de Contenido o Edición Audiovisual se agendan por entregas semanales o quincenales.'
+          answer: 'Los tiempos varían según la complejidad: los proyectos de identidad de marca toman entre 2 y 4 semanas, mientras que la planeación y gestión de contenido se organizan por entregas semanales o quincenales.'
         },
         {
           id: 'modalidad',
@@ -199,15 +209,15 @@ export const portfolioData = {
       heading: "Mapa del Sitio",
       headingHighlight: "& Directorio",
       description: "Navegación arquitectónica y acceso directo a todas las áreas de especialidad del estudio.",
-      role: "Mercadotecnia & Dirección de Arte",
-      bio: "Especialista en estructurar sistemas visuales perdurables, estrategias de comunicación auténticas y narrativa audiovisual enfocada en elevar el valor percibido de cada marca.",
+      role: "Marketing, Branding & Contenido Digital",
+      bio: "Estudiante y practicante de Marketing enfocada en conectar estrategia, creatividad, comunicación, branding y contenido digital para impulsar marcas.",
       location: "Toluca, México",
       availability: "Disponible 2026",
       navColNumber: "01",
       navColTitle: "Navegación",
       navLinks: [
         { label: 'Inicio', href: '#inicio' },
-        { label: 'Sobre mí / Filosofía', href: '#sobre-mi' },
+        { label: 'Sobre mí / Quién soy', href: '#sobre-mi' },
         { label: 'Experiencia / Trayectoria', href: '#experiencia' },
         { label: 'Servicios / Capacidades', href: '#servicios' },
         { label: 'Contacto / Conexión', href: '#contacto' }
@@ -234,40 +244,40 @@ export const portfolioData = {
       cta: "Let's Talk"
     },
     hero: {
-      specialistBadge: "Marketing Specialist",
+      specialistBadge: "Marketing practitioner",
       availableBadge: "Available 2026",
       firstName: "Catherine",
       lastName: "de Jesus",
-      quote: '"Designing visual narratives and soulful strategies that transcend time and connect with the luxury of authenticity."',
-      tagline: "Strategy • Positioning • Functional Luxury",
+      quote: '"Turning ideas into strategies, brands, and content that connect with people."',
+      tagline: "Strategy • Branding • Content",
       ctaPrimary: "Start Project",
       ctaSecondary: "View Services",
-      imgAlt: "Catherine de Jesus - Strategy & Art Direction"
+      imgAlt: "Catherine de Jesus - Marketing, branding, and digital content"
     },
     about: {
-      sectionBadge: 'Creative Universe • Approach',
-      title: 'Philosophy &',
-      titleHighlight: 'Method',
-      description: 'A fresh and strategic perspective merging visual art, marketing, and functional design.',
-      footerTag: 'Marketing & Strategy',
+      sectionBadge: 'Professional profile • Who I am',
+      title: 'Who',
+      titleHighlight: 'I am',
+      description: 'I am a Marketing student and practitioner who turns ideas into intentional strategies, brands, and content.',
+      footerTag: 'Marketing • Creativity • Strategy',
       tabs: {
         vision: {
-          title: "Essence & Positioning",
-          subtitle: "Strategy with soul and purpose",
-          text: "As a Marketing student, I firmly believe that design and marketing go beyond aesthetics: it's about structuring visual and functional narratives that connect genuinely and endure over time.",
-          badge: "Strategy"
+          title: "Marketing",
+          subtitle: "A creative eye",
+          text: "I am Catherine, a Marketing student and practitioner. I am interested in understanding people, brands, and their goals to turn that perspective into clear, relevant, and human ideas. I enjoy learning, collaborating, and taking part in projects where strategy becomes purposeful communication.",
+          badge: "Profile"
         },
         pasion: {
-          title: "Art Direction & Aesthetics",
-          subtitle: "Detail as identity",
-          text: "I enjoy transforming abstract concepts into visual pieces with their own essence. Every project is an opportunity to experiment with editorial aesthetics, branding, and authenticity.",
+          title: "Creativity",
+          subtitle: "Ideas that connect",
+          text: "I enjoy creating and editing digital content, developing visual concepts, and building social media narratives that feel authentic, engaging, and true to each brand.",
           badge: "Creativity"
         },
         trayectoria: {
-          title: "Evolution & Digital Impact",
-          subtitle: "Commitment and avant-garde",
-          text: "In constant search of new skills within the digital and creative world, always maintaining professional rigor, responsibility, and an obsessive attention to technical and visual details.",
-          badge: "Innovation"
+          title: "Strategy",
+          subtitle: "Purposeful thinking",
+          text: "I combine analysis, branding, communication, and creativity to propose strategic solutions, from content planning and campaigns to community management and sales.",
+          badge: "Strategy"
         }
       }
     },
@@ -275,6 +285,7 @@ export const portfolioData = {
       badge: "Professional Internships",
       heading: "My",
       headingHighlight: "Trajectory",
+      projectsTitle: "Projects completed during my internships",
       ctaBtn: "Meet Albeh",
       agencyTitle: "Albeh Consulting",
       p1Part1: "Albeh represented my major ",
@@ -287,27 +298,27 @@ export const portfolioData = {
       cards: [
         {
           id: 1,
-          title: "Content Scheduling & Creation",
-          category: "Social Media",
-          description: "Creation and execution of strategic content schedules for social media, designed to boost brand positioning through deep digital market analysis."
+          title: "Marketing strategy",
+          category: "Marketing & strategy",
+          description: "Support in developing Marketing and digital communication strategies, considering objectives, audiences, positioning, and campaigns to strengthen a brand's presence."
         },
         {
           id: 2,
-          title: "Influencer Management",
-          category: "Outreach & PR",
-          description: "Outreach and engagement strategy with content creators to expand the consultancy's digital reach and authority, establishing valuable, long-term relationships."
+          title: "Brand creation",
+          category: "Branding & design",
+          description: "Development of brand concepts, logos, and visual identity to communicate consistently and build a recognizable, professional presence."
         },
         {
           id: 3,
-          title: "Document Design",
-          category: "Visual Identity",
-          description: "Structural and visual design of corporate documents and organizational identity under strict professional standards, ensuring consistency at every corporate touchpoint."
+          title: "Digital content",
+          category: "Digital content creation",
+          description: "Creation, editing, and adaptation of content for social media and digital platforms, including schedules, scripts, copywriting, and audiovisual formats."
         },
         {
           id: 4,
-          title: "Consulting & Identity",
-          category: "Brand Strategy",
-          description: "Structuring and managing organizational identity to consolidate the firm's corporate presence in the market, aligning internal values with external perception."
+          title: "Communication & sales",
+          category: "Communication & sales",
+          description: "Strategic communication, customer care, and support for commercial processes through active listening, objection handling, persuasion, and solution-oriented guidance."
         }
       ]
     },
@@ -315,36 +326,45 @@ export const portfolioData = {
       badge: "Capabilities",
       heading: "Professional",
       headingHighlight: "Services",
-      description: "Creative and strategic solutions designed to elevate the visual presence and brand positioning.",
+      description: "Marketing solutions that connect strategy, creativity, and communication to move brands forward in digital spaces.",
       includesLabel: "Includes",
       footerTag: "High-Impact Approach",
       list: [
         {
           id: "01",
-          title: "Brand Identity",
-          subtitle: "Visual Systems & Branding",
-          description: "Building visual identities that authentically, coherently, and professionally convey the essence of each brand, structuring enduring systems.",
-          badge: "Visual Strategy",
-          highlights: ["Brand Guidelines", "Typography Systems", "Color Palettes"],
-          tags: ["Branding", "UI/UX"]
+          title: "Digital content creation",
+          subtitle: "Content that communicates",
+          description: "Creation and editing of visual and audiovisual pieces that communicate relevant messages across social and digital platforms.",
+          badge: "Content",
+          highlights: ["Social media design", "Audiovisual editing", "Copywriting"],
+          tags: ["Creativity", "Digital"]
         },
         {
           id: "02",
-          title: "Digital Content",
-          subtitle: "Strategy & Social Media",
-          description: "Creation of creative and strategic social media content designed to communicate, connect, and strengthen a brand's presence with high impact.",
-          badge: "Positioning",
-          highlights: ["Content Planning", "Editorial Copywriting", "Feed Design"],
-          tags: ["Strategy", "Social Media"]
+          title: "Content planning",
+          subtitle: "Editorial strategy",
+          description: "Organization of topics, formats, and calendars to maintain consistent communication aligned with brand objectives.",
+          badge: "Planning",
+          highlights: ["Content schedules", "Editorial calendars", "Digital campaigns"],
+          tags: ["Strategy", "Marketing"]
         },
         {
           id: "03",
-          title: "Audiovisual Editing",
-          subtitle: "Post-production & Narrative",
-          description: "Editing dynamic and engaging audiovisual pieces, adapted to different formats and digital platforms, focusing on rhythm, color, and storytelling.",
-          badge: "Production",
-          highlights: ["Reels & Shorts Editing", "Color Grading", "Post-production"],
-          tags: ["Audiovisual", "Reels"]
+          title: "Brand identity",
+          subtitle: "Branding & positioning",
+          description: "Development of concepts, logos, and visual systems that help build a recognizable brand with consistent communication.",
+          badge: "Branding",
+          highlights: ["Visual concept", "Logos", "Identity systems"],
+          tags: ["Brand", "Branding"]
+        },
+        {
+          id: "04",
+          title: "Community Manager",
+          subtitle: "Management & community",
+          description: "Strategic social media management, content publishing, and close communication with each brand's community.",
+          badge: "Social Media",
+          highlights: ["Profile management", "Community care", "Monitoring and follow-up"],
+          tags: ["Communication", "Social"]
         }
       ]
     },
@@ -355,7 +375,7 @@ export const portfolioData = {
       description: "If you are looking for strategic vision, polished aesthetics, and absolute commitment to your brand's results, I am ready to team up with you.",
       availabilityBadge: "Available 2026",
       name: "Catherine de Jesus",
-      title: "Strategy & Art Direction",
+      title: "Marketing, Branding & Content",
       guaranteeBadge: "Personalized Attention",
       guaranteeText: "Tailored proposals with an end-to-end approach, combining market analysis, aesthetic vision, and high-level execution.",
       directoryBadge: "Direct Directory",
@@ -388,7 +408,7 @@ export const portfolioData = {
         {
           id: 'servicios',
           label: 'What services does Catherine offer?',
-          answer: 'Catherine specializes in 3 strategic pillars: 1. Brand Identity (Branding & Visual Systems), 2. Digital Content (Strategy & Copywriting), and 3. Audiovisual Editing (Reels, Shorts & Color Grading).'
+          answer: 'Catherine works across four areas: digital content creation, content planning, brand identity, and community management as a Community Manager.'
         },
         {
           id: 'proceso',
@@ -407,7 +427,7 @@ export const portfolioData = {
         {
           id: 'tiempos',
           label: 'What are the delivery times?',
-          answer: 'Delivery times vary based on complexity: Brand Identity projects take between 2 and 4 weeks, while Content campaigns or Audiovisual Editing are scheduled in weekly or bi-weekly deliveries.'
+          answer: 'Delivery times vary by complexity: brand identity projects take between 2 and 4 weeks, while content planning and management are organized in weekly or bi-weekly deliveries.'
         },
         {
           id: 'modalidad',
@@ -421,15 +441,15 @@ export const portfolioData = {
       heading: "Site Map",
       headingHighlight: "& Directory",
       description: "Architectural navigation and direct access to all expertise areas of the studio.",
-      role: "Marketing & Art Direction",
-      bio: "Specialist in structuring enduring visual systems, authentic communication strategies, and audiovisual narrative focused on elevating the perceived value of each brand.",
+      role: "Marketing, Branding & Digital Content",
+      bio: "Marketing student and practitioner focused on connecting strategy, creativity, communication, branding, and digital content to move brands forward.",
       location: "Toluca, Mexico",
       availability: "Available 2026",
       navColNumber: "01",
       navColTitle: "Navigation",
       navLinks: [
         { label: 'Home', href: '#inicio' },
-        { label: 'About me / Philosophy', href: '#sobre-mi' },
+        { label: 'About me / Who I am', href: '#sobre-mi' },
         { label: 'Experience / Trajectory', href: '#experiencia' },
         { label: 'Services / Capabilities', href: '#servicios' },
         { label: 'Contact / Connection', href: '#contacto' }

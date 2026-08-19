@@ -4,7 +4,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import { portfolioData } from '../../data/content';
 
 // Importación del Logo
-import albehLogo from '../../assets/logo-albeh.png';
+const albehLogo = new URL('../../assets/logo-albeh.png', import.meta.url).href;
 
 // Mapa estático de íconos por ID
 const CARD_ICONS: Record<number, React.ElementType> = {
@@ -112,7 +112,12 @@ const Experience: React.FC = () => {
         {/* ==========================================
             SECCIÓN INFERIOR: TARJETAS 3D FLIP
             ========================================== */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="space-y-8">
+          <h3 className="text-2xl md:text-3xl font-title font-bold tracking-tight">
+            {data.projectsTitle}
+          </h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {data.cards.map((item) => {
             const IconComp = CARD_ICONS[item.id];
 
@@ -164,6 +169,7 @@ const Experience: React.FC = () => {
               </div>
             );
           })}
+          </div>
         </div>
 
       </div>

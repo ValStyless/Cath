@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Palette, Share2, Video, Orbit, Sparkles, CheckCircle2 } from 'lucide-react';
+import { Palette, Share2, Video, Orbit, Sparkles, CheckCircle2, UsersRound } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { portfolioData } from '../../data/content';
 
@@ -8,6 +8,7 @@ const SERVICE_ICONS: Record<string, React.ElementType> = {
   "01": Palette,
   "02": Share2,
   "03": Video,
+  "04": UsersRound,
 };
 
 const Services: React.FC = () => {
@@ -56,7 +57,7 @@ const Services: React.FC = () => {
         </div>
 
         {/* GRID DE TARJETAS ARQUITECTÓNICAS */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 items-stretch">
           {data.list.map((service, index) => {
             const IconComponent = SERVICE_ICONS[service.id];
             const isHovered = activeCard === index;

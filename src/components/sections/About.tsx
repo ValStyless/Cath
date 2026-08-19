@@ -125,7 +125,7 @@ const About: React.FC = () => {
           {/* Navegación lateral (Izquierda) */}
           <div 
             role="tablist" 
-            aria-label="Filosofía y Enfoque"
+            aria-label="Quién soy y mi enfoque profesional"
             className="lg:col-span-5 flex flex-col justify-center gap-3.5"
           >
             {(Object.keys(data.tabs) as TabKey[]).map((key) => {
